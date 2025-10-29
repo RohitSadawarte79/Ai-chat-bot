@@ -2,7 +2,7 @@
   "name": "speech-bot",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "apiai": "^4.0.3",
+    "@google/genai": "^1.27.0",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "socket.io": "^4.8.1"
   }
